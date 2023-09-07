@@ -1,0 +1,47 @@
+.button1 {
+    margin: 20px;
+}
+
+.hea3 {
+    color: blue;
+}
+
+
+.bg-container {
+    height: 100vw;
+    background-color: rgb(65, 194, 123);
+}
+
+label {
+    color: brown;
+    font-size: 25px;
+}
+
+#output{
+    width: 50vw;
+    height: 20vw;
+    background-color: bisque;
+    border-radius: 30px;
+
+}
+
+#detailsContainer{
+    background-color: rgb(224, 217, 223);
+    text-align: start;
+    width: 40vw;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.detaEle {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#product-name {
+    width: 70vw;
+    height: 50px;
+}
+

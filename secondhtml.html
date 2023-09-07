@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <title>multipage app</title>
+
+    <link rel="stylesheet"  href="second.css">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+    </head>
+    <body>
+      <div class="bg-container">
+          <button onclick="logout()" class="glyphicon glyphicon-log-out btn btn-secondary button1">Logout</button>
+          <br>
+          <center>
+          <h1 style="font-size: 5vw; color: white;">Messenger<sup><img src="1. image.png" width="70" height="70" style="margin-left: 20px;border-radius: 16px;"></sup></h1>
+          <h3 id = "personName" class="heading3"></h3>
+          <div id="detailsContainer"></div>
+          <div>
+            <label for="product-name">Add Product</label><br>
+            <input type="text" id="product-name" >
+          </div>
+          <button onclick="addProduct()" class="button1 btn btn-warning">Add Newproduct</button>
+          <h3 class="hea3">#Popular Items</h3>
+          <div id = "output"></div>
+        </center>
+      </div>
+      <script type="text/javascript" src="second.js"></script>  
+    </body>
+</html>
